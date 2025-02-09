@@ -17,13 +17,6 @@ npm install
 ```
 GITHUB_API_URL=https://api.github.com
 ```
-## Run Project 
-
-##### watch mode
-
-```bash
-npm run start:dev
-```
 
 ## Run tests
 
@@ -32,6 +25,21 @@ npm run start:dev
 ```bash
 npm run test
 ```
+
+## Run Project 
+
+##### watch mode
+
+```bash
+npm run start:dev
+```
+
+###### navigate to swagger
+
+```bash
+http://localhost:3000/api
+```
+
 
 ## Docker Deployment
 
