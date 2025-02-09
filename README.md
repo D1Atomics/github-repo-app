@@ -1,6 +1,10 @@
 ## Description
 
-[Nest](https://github.com/nestjs/nest): framework. TypeScript. Github Repository Query App.
+[Nest](https://github.com/nestjs/nest): framework. TypeScript. GitHub Repository Query App With:
+
+- Tests ✨🧪
+- Logging ✨༖
+- Docker ✨🐳
 
 ## Project setup
 
@@ -8,7 +12,12 @@
 npm install
 ```
 
-## Compile and run the project
+## Add .env file based on .env.example
+
+```
+GITHUB_API_URL=https://api.github.com
+```
+## Run Project 
 
 ##### watch mode
 
@@ -85,7 +94,7 @@ src/
 ├── github-search/       # Feature module
 │   ├── controllers/     # API endpoints
 │   ├── dto/             # Data transfer objects
-│   ├── interfaces/     # Type definitions
+│   ├── interfaces/      # Type definitions
 │   └── services/        # Business logic
 └── main.ts              # Application entry
 ```
